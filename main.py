@@ -38,3 +38,11 @@ while option != 0:
   print()
   menu()
   option = int(input("Enter your option:"))
+khjkhg
+gjkjhfg
+gkfdjglkjf
+oitguo
+dfkklgjlf;kjh
+sdfkjsldfk
+lkdfjsld;kfjh
+lkfjhlkjfg
