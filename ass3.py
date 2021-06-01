@@ -19,8 +19,20 @@ print("\n""options:")
 
 
 def menu():
-  print(" 1)take a replace rule:")
+  print(" 1)take a replace rule written in the code:")
   print(" 2)exit:")
+
+def replace_rule():
+  # read the file
+  #apply rule
+  dict={"M":'a',"A":'b',"N":'c',"U":'d',"S":'e',"C":'f',"E":"m"}
+  cipher_text=""
+  text = open('text.txt')
+  for t in text:
+    for key in dict.keys():
+      t = t.replace(key, dict[key])
+    cipher_text +=t
+  print(cipher_text)
 
 
 menu()
@@ -29,6 +41,7 @@ option = int(input("Enter your option:"))
 while option != 0:
   if option == 1:
     print("Enter Replacment Rule->")
+    replace_rule()
 
   elif option == 2:
     exit()
