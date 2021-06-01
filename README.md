@@ -1,13 +1,13 @@
 replacment rule:
-A
-B
-C
-D
-E
-F
-G
-H
-I
+A->b
+B->k
+C->f
+D->l
+E->m
+F->n
+G->o
+H->p
+I->h
 J
 K
 L
