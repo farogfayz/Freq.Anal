@@ -19,7 +19,7 @@ print("\n""options:")
 
 
 def menu():
-  print(" 1)take a replace rule written in the code:")
+  print(" 1)try a replace rule written in the code:")
   print(" 2)exit:")
 
 def replace_rule():
@@ -40,7 +40,7 @@ option = int(input("Enter your option:"))
 
 while option != 0:
   if option == 1:
-    print("Enter Replacment Rule->")
+    print("Plain text:")
     replace_rule()
 
   elif option == 2:
