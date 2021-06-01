@@ -19,12 +19,12 @@ print("\n""options:")
 
 
 def menu():
-  print(" 1)take a replace rule written in the code:")
+  print(" 1)take a replace rule that has been written in the code:")
   print(" 2)exit:")
 
 def replace_rule():
   # read the file
-  #apply rule
+  #apply replacment rule took from the assigmant in moodle:
   dict={"M":'a',"A":'b',"N":'c',"U":'d',"S":'e',"C":'f',"E":"m"}
   cipher_text=""
   text = open('text.txt')
