@@ -25,7 +25,7 @@ def menu():
 def replace_rule():
   # read the file
   #apply replacment rule took from the assigmant in moodle:
-  dict={"M":'a',"A":'b',"N":'c',"U":'d',"S":'e',"C":'f',"E":"m","F":'n'}
+  dict={"M":'a',"A":'b',"N":'c',"U":'d',"S":'e',"C":'f',"E":"m","F":'n',"B":'k'}
   cipher_text=""
   text = open('text.txt')
   for t in text:
